@@ -7,8 +7,8 @@ trigger:
 - master
 
 pool:
-  name: linux-agent
-  vmImage: linux-agent
+  name: New-agent
+  vmImage: New-agent
 
 steps:
 - task: NodeTool@0
